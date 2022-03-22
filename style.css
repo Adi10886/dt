@@ -1,0 +1,70 @@
+body {
+  background-color: #efdad7;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #062c30;
+}
+h3 {
+  color: #051367;
+}
+h4 {
+  color: #1c0a00;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.uk {
+  height: 300px;
+  width: 100%;
+}
+.sikkim {
+  height: 300px;
+  width: 100%;
+}
+.kashmir {
+  height: 300px;
+  width: 100%;
+}
+.goa {
+  height: 300px;
+  width: 100%;
+}
+.megha {
+  height: 300px;
+  width: 100%;
+}
+.page-footer font-small cyan darken-3 {
+  color: aqua;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
