@@ -1,14 +1,46 @@
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 body {
-  margin:0;
-  background-color: #efdad7;
+  margin: 0%;
+  background-color: #caf0f8;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
 h1 {
-  font-family: 'Dancing Script', cursive;
   text-align: center;
+  font-family: "Dancing Script", cursive;
 }
 h2 {
   text-align: center;
@@ -22,26 +54,7 @@ h4 {
   color: #1c0a00;
   font-family: "Montserrat", sans-serif;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-  display: inline;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 .uk {
   height: 300px;
   width: 100%;
@@ -62,11 +75,18 @@ li a {
   height: 300px;
   width: 100%;
 }
-.page-footer font-small cyan darken-3 {
-  color: aqua;
+
+.page {
+  padding-top: 5%;
+  background-color: #61a4bc;
+  text-align: center;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#navbar a:hover {
   background-color: #111;
 }
